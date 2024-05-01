@@ -1,7 +1,7 @@
 
 import Banner from "./components/Banner";
 import Historia from "./components/Historia";
-// import Footer from "./components/Footer";
+import Plans from "./components/Plans";
 import Header from "./components/Header";
 
 export default function Home() {
@@ -10,6 +10,8 @@ export default function Home() {
        <Header/>
         <Banner/>
        <Historia/>  
+       <Plans/> 
+
     </div>
   );
 }
