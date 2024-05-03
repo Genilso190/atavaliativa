@@ -11,8 +11,8 @@ export default function Header () {
         <div className="grid grid-cols-2 mt-2">
             <h5>Jan-06-2023</h5> <h5>Adam Buleiver</h5>
         </div>
-            <h5 className="mt-2 text-sm">Experience the magic of Thailand with GTravel in December! Our expertly curated trip will take you on an unforgettable journey through this vibrant and captivating country. Discover the stunning beaches of Thailands southern islands, such as Phuket, Krabi, or Koh Samui, where you can bask in the warm tropical sun and indulge in water sports.</h5>
-            <h5 className="mt-4 text-sm">GTravel, your trusted travel partner, ensures a seamless and well-planned itinerary,including accommodations, transportation,and expert guides. Book your Thailandadventure with GTravel today and createlasting memories in the Land of Smiles.</h5>
+            {/* <h5 className="mt-2 text-sm">Experience the magic of Thailand with GTravel in December! Our expertly curated trip will take you on an unforgettable journey through this vibrant and captivating country. Discover the stunning beaches of Thailands southern islands, such as Phuket, Krabi, or Koh Samui, where you can bask in the warm tropical sun and indulge in water sports.</h5> */}
+            {/* <h5 className="mt-4 text-sm">GTravel, your trusted travel partner, ensures a seamless and well-planned itinerary,including accommodations, transportation,and expert guides. Book your Thailandadventure with GTravel today and createlasting memories in the Land of Smiles.</h5> */}
             <a href="https://terra.com.br">Read More</a>
         </div>
         </div>
