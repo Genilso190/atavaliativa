@@ -1,9 +1,9 @@
 export default function Plans () {
     return( 
-        <div>
+        <div className="mx-3 mt-10">
             <div className="mt-3">
-                <h4>PRICING</h4>
-                <h4>Check your tour plans</h4>
+            <h4 className="text-sm">Pricing</h4>
+          <h5 className="font-bold text-2xl">Check your tour plans</h5>
             </div>
             <div className="md:grid grid-cols-4 gap-4 mx-2 mt-3">
             <div className="mt-6">

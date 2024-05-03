@@ -1,6 +1,6 @@
 export default function Header () {
     return( 
-        <div className="mt-20 md:grid grid-cols-3">
+        <div className="gap-5 mx-3 mt-20 bg-sky-50 md:grid grid-cols-3">
             <div>
                 <div className="font-bold">
                     <p>About Us</p>
