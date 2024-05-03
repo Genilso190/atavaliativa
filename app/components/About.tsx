@@ -1,6 +1,6 @@
 export default function Header () {
     return( 
-        <div className="mt-20">
+        <div className="mt-20 md:grid grid-cols-3">
             <div>
                 <div className="font-bold">
                     <p>About Us</p>
@@ -10,8 +10,8 @@ export default function Header () {
                     <p className="mt-5">Book your next adventure with us and embark on a transformative journey that will create cherished memories for a lifetime.</p>
                 </div>
             </div>    
-            <div>
-                <div className="mt-10 font-bold">
+            <div className="mt-4"> 
+                <div className="font-bold">
                     <p>Travel Info</p>
                 </div>
                 <div>
@@ -22,8 +22,8 @@ export default function Header () {
                     <p>Contact Us</p>
                 </div>
             </div>
-            <div> 
-                <div className="mt-10 font-bold">
+            <div className="mt-4"> 
+                <div className="font-bold">
                     <p>Information</p>
                 </div>
                 <div>

@@ -1,9 +1,12 @@
 export default function Footer(){
     return(
         <div>
+        <div className="mt-6 border-t-2 border-[#4d4d4d] md:flex justify-center">
+          <p>Copyright © 2023 UTFPR. All rights reserved.</p>
+        </div>
         <div className="flex justify-center mt-6">
           <a className="mr-2" href="">
-            <svg className="fill-white w-[48px] h-[48px] text-gray-800 dark:text-white"
+            <svg className=" w-[48px] h-[48px] text-gray-800 dark:text-white"
 
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +23,7 @@ export default function Footer(){
             </svg>
           </a>
           <a className="mr-2" href="">
-            <svg className="fill-white w-[48px] h-[48px] text-gray-800 dark:text-white"
+            <svg className=" w-[48px] h-[48px] text-gray-800 dark:text-white"
               
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +38,7 @@ export default function Footer(){
             </svg>
           </a>
           <a className="mr-2" href="">
-            <svg className="fill-white w-[48px] h-[48px] text-gray-800 dark:text-white"
+            <svg className=" w-[48px] h-[48px] text-gray-800 dark:text-white"
               
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +55,7 @@ export default function Footer(){
             </svg>
           </a>
           <a className="mr-2" href="">
-            <svg className="fill-white w-[48px] h-[48px] text-gray-800 dark:text-white"
+            <svg className=" w-[48px] h-[48px] text-gray-800 dark:text-white"
               
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +73,7 @@ export default function Footer(){
             </svg>
           </a>
           <a href="">
-            <svg className="fill-white w-[48px] h-[48px] text-gray-800 dark:text-white"
+            <svg className=" w-[48px] h-[48px] text-gray-800 dark:text-white"
               
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
@@ -86,12 +89,6 @@ export default function Footer(){
               />
             </svg>
           </a>
-        </div>
-        <div className="mt-6 border-t-4 border-[#4d4d4d]">
-          <p>
-            Copyriright UTFPR 2024-1 by <span className="text-[#00e77f]">Alunos de Web I</span> all rights
-            reserved!
-          </p>
         </div>
       </div>
   
