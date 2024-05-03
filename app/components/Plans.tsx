@@ -6,34 +6,39 @@ export default function Plans () {
                 <h4>Check your tour plans</h4>
             </div>
             <div className="md:grid grid-cols-4 gap-4 mx-2 mt-3">
-                <div>
-                    <img src="/img/image3.jpg" alt="" />
-                    <h5>tean tour</h5>
-                    <h6>confirm your group</h6>
-                    <h6>morocco</h6>
+            <div className="mt-6">
+                    <img src="/img/img1.png" alt="" />
+                    <div className="mt-2 flex justify-between">
+                    <h5>Team tour</h5> <h5>$455/Person</h5>
+                    </div>
+                    <h6 className="mt-2 font-bold">Confirm your group tour recent packages</h6>
+                    <h6>📍Morocco</h6>
                 </div>
-                <div>
-                    <img src="/img/image3.jpg" alt="" />
-                    <h5>tean tour</h5>
-                    <h6>confirm your group</h6>
-                    <h6>morocco</h6>
+                <div className="mt-6">
+                    <img src="/img/img2.png" alt="" />
+                    <div className="mt-2 flex justify-between">
+                    <h5>Team tour</h5> <h5>$405/Person</h5>
+                    </div>
+                    <h6 className="mt-2 font-bold">Get secured tour plan with your spouse</h6>
+                    <h6>📍Singapore</h6>
                 </div>
-                <div>
-                    <img src="/img/image3.jpg" alt="" />
-                    <h5>tean tour</h5>
-                    <h6>confirm your group</h6>
-                    <h6>morocco</h6>
+                <div className="mt-6">
+                    <img src="/img/img3.png" alt="" />
+                    <div className="mt-2 flex justify-between">
+                    <h5>Team tour</h5> <h5>$355/Person</h5>
+                    </div>
+                    <h6 className="mt-2 font-bold">Make your adventures comfortable</h6>
+                    <h6>📍Switzerland</h6>
                 </div>
-                <div>
-                    <img src="/img/image3.jpg" alt="" />
-                    <h5>tean tour</h5>
-                    <h6>confirm your group</h6>
-                    <h6>morocco</h6>
+                <div className="mt-6">
+                    <img src="/img/img4.png" alt="" />
+                    <div className="mt-2 flex justify-between">
+                    <h5>Team tour</h5> <h5>$455/Person</h5>
+                    </div>
+                    <h6 className="mt-2 font-bold">Explore the paris streets at peace</h6>
+                    <h6>📍Paris</h6>
                 </div>
-            </div>
+                </div>
         </div>
-        
-        
-      
     )
 }
